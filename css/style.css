@@ -1,0 +1,69 @@
+/*****     GENERAL     ****/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background-color: black;
+}
+
+main{
+	width: 100%;
+	height: 100vh;
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.teste {
+	width: 800px;
+	height: 400px;
+	margin: 100px auto;
+	background: rgb(231, 231, 231);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.bg1 {
+	background-image: url("../media/bg1.webp");
+}
+
+.bg2 {
+	background-image: url("../media/bg2.webp");
+}
+
+.bg3 {
+	background-image: url("../media/bg3.webp");
+}
+
+.bg4 {
+	background-image: url("../media/bg4.webp");
+}
+
+.bg5 {
+	background-image: url("../media/bg5.webp");
+}
+
+.bg6 {
+	background-image: url("../media/bg6.webp");
+}
+
+@media (max-width: 400px) {
+	.teste {
+		width: 90vw;
+		height: 50vh;
+	}
+}
